@@ -18,3 +18,5 @@ function accum (s) {
     return element.toUpperCase() + element.toLowerCase().repeat(index);
   }).join('-');
 }
+
+// or
