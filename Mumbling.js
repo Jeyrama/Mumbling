@@ -12,3 +12,9 @@ The parameter of accum is a string which includes only letters from a..z and A..
 
 
 // Solution
+
+function accum (s) {
+	return [...s].map((element, index) => {
+    return element.toUpperCase() + element.toLowerCase().repeat(index);
+  }).join('-');
+}
